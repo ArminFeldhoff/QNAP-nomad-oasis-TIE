@@ -112,7 +112,7 @@ services:
       north:
         condition: service_started
     volumes:
-      # - ./configs/nomad.yaml:/app/nomad.yaml
+      - ./configs/nomad.yaml:/app/nomad.yaml
       - ./.volumes/fs:/app/.volumes/fs
     command: ./run.sh
     healthcheck:
