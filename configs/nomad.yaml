@@ -1,5 +1,5 @@
 services:
-  api_host: "130.75.157.151"
+  api_host: "localhost"
   api_base_path: "/nomad-oasis"
 
 oasis:
@@ -15,7 +15,7 @@ north:
 
 meta:
   deployment: "oasis"
-  deployment_url: "https://130.75.157.151/api"
+  deployment_url: "https://130.75.157.151:81/api"
   maintainer_email: "armin.feldhoff@pci.uni-hannover.de"
 
 logstash:
