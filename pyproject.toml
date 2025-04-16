@@ -35,6 +35,7 @@ plugins = [
   "pynxtools[convert]==0.10.2",
   "nomad-schema-plugin-run>=1.0.1",
   "nomad-schema-plugin-simulation-workflow>=1.0.1",
+  "nomad-material-processing @ git+https://github.com/FAIRmat-NFDI/nomad-material-processing",
   "nomad-normalizer-plugin-bandstructure>=1.0",
   "nomad-normalizer-plugin-dos>=1.0",
   "nomad-normalizer-plugin-soap>=1.0",
