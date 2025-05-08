@@ -102,7 +102,6 @@ services:
       NOMAD_MONGO_HOST: mongo
       NOMAD_LOGSTASH_HOST: logtransfer
       NOMAD_NORTH_HUB_HOST: north
-      - TZ=Europe/Berlin
     depends_on:
       rabbitmq:
         condition: service_healthy
