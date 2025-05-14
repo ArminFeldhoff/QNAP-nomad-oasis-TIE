@@ -9,6 +9,7 @@ services:
       - RABBITMQ_DEFAULT_USER=rabbitmq
       - RABBITMQ_DEFAULT_PASS=rabbitmq
       - RABBITMQ_DEFAULT_VHOST=/
+      - TZ=Europe/Berlin
     volumes:
       - rabbitmq:/var/lib/rabbitmq
     healthcheck:
