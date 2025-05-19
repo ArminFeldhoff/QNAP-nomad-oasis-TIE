@@ -88,7 +88,7 @@ services:
       mongo:
         condition: service_healthy
     volumes:
-      # - ./configs/nomad.yaml:/app/nomad.yaml
+      - ./configs/nomad.yaml:/app/nomad.yaml
       - ./.volumes/fs:/app/.volumes/fs
     command: python -m celery -A nomad.processing worker -l info -Q celery
 
