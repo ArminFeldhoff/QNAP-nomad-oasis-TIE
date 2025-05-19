@@ -15,11 +15,11 @@ north:
 
 meta:
   deployment: "oasis"
-  deployment_url: "https://130.75.157.151/api"
+  deployment_url: "https://130.75.157.151:81/api"
   maintainer_email: "armin.feldhoff@pci.uni-hannover.de"
 
 logstash:
-  enable: false
+  enabled: false
 
 mongo:
   db_name: nomad_oasis_v1
